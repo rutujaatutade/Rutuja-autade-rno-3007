@@ -1,0 +1,6 @@
+#SetB-2 Python program to check if number is odd or even
+n=int(input("Enter the Number:"))
+if(n%2==0):
+    print("numer is Even")
+else:
+    print("Number is odd")

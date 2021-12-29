@@ -1,0 +1,8 @@
+#SetB-1 Write a python program to check if number is positive ,Negative or zero
+n=int(input("Enter The Number:"))
+if(n==0):
+    print("Number is Zero")
+elif(n>0):
+    print("Number is Positive")
+else:
+    print("Number is Negative")

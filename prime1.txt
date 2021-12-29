@@ -1,0 +1,16 @@
+#practice program 4 Write a python program to print all prime numbers in an interval
+s=int(input("Start index:"))
+e=int(input("End index:"))
+for i in range(s,e):
+    f=0
+    for j in range(2,i):
+        if i%j==0:
+            f=1
+            break
+    if f==0:
+        if(i==0 or i==1):
+            continue
+        else:
+            print(i)
+
+            

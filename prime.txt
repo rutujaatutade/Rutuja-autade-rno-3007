@@ -1,0 +1,12 @@
+#SetB-3 Python program to check prime number
+n=int(input("Enter The Number:"))
+f=0
+for i in range(2,n):
+    if(n%i==0):
+        f=1
+        break
+if(f==0):
+    print("Number is prime")
+else:
+    print("number is not prime")
+

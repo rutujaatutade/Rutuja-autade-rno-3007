@@ -1,0 +1,12 @@
+#practice program5 write a program to find armstrong number in an interval
+a=int(input("Enter start limit:"))
+b=int(input("Enter End limit:"))
+for i in range(a,b+1):
+    n=i
+    s=0
+    while(n>0):
+        d=n%10
+        s=s+(d**3)
+        n=int(n/10)
+    if(s==i):
+        print(i)

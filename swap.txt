@@ -1,0 +1,8 @@
+#SetA-2 Python program to swap two variables
+a=input("Enter frist variable:")
+b=input("Enter second variable:")
+temp=a
+a=b
+b=temp
+print("The value of a after swapping:",a)
+print("The value of b after swapping:",b)

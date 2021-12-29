@@ -1,0 +1,5 @@
+#practice program2.convert celcius to farenheit
+a=float(input("Enter the temprature in celcius"))
+f=(a*1.8)+32
+print(a,"celcius temprature =",f,"farenheit")
+
